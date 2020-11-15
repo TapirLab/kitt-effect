@@ -27,7 +27,11 @@ KITT
 |── requirements.txt
 ```
 ## Example 
-After installing requirements, this repo can be tested by executing the `main.py` script. It will produce an example video and save it to the `sample_output` folder. An explanation of each line of `main.py` can be found below. Also, an example video can be found on the official YouTube channel of `TapirCast` who is both the developer and user of this repository. `FPS` parameter can only take `10` and `15` values which are defined experimentally. It can be modified to the desired value after deciding the correct energy threshold levels. 
+After installing requirements, this repo can be tested by executing the `main.py` script. It will produce an example video and save it to the `sample_output` folder. An explanation of each line of `main.py` can be found below. `FPS` parameter can only take `10` and `15` values which are defined experimentally. It can be modified to the desired value after deciding the correct energy threshold levels. Also, an example output can be seen below. This footage is taken from one of the podcasts published on the official YouTube channel of `TapirCast` who is both the developer and user of this repository. Click on the example output to access original video which includes both visualization and audio (in Turkish) together. 
+
+[![Example Output](./sample_output/sample_output.gif)](https://youtu.be/OskxX_T42_I)
+
+
 
 ```python
 #!/usr/bin/env python3
